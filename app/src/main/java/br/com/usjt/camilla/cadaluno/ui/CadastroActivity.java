@@ -1,4 +1,4 @@
-package br.com.usjt.camilla.cadaluno;
+package br.com.usjt.camilla.cadaluno.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.orhanobut.hawk.Hawk;
+
+import br.com.usjt.camilla.cadaluno.R;
 
 public class CadastroActivity extends AppCompatActivity {
 
