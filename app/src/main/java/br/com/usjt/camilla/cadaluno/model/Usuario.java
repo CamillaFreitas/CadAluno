@@ -11,12 +11,18 @@ public class Usuario {
     private String cpf;
     private String email;
     private String senha;
-    public Usuario(String nome, String cpf, String email, String senha) {
+    private String ra;
+    public Usuario(String nome, String cpf, String email, String senha, String ra) {
         this.nome = nome;
         this.cpf = cpf;
         this.email = email;
         this.senha = senha;
+        this.ra = ra;
     }
+
+    public Usuario() {
+    }
+
     // gets e sets
 
     public int getId() {
@@ -57,5 +63,13 @@ public class Usuario {
 
     public void setSenha(String senha) {
         this.senha = senha;
+    }
+
+    public String getRa() {
+        return ra;
+    }
+
+    public void setRa(String ra) {
+        this.ra = ra;
     }
 }
